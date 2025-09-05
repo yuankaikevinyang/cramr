@@ -7,14 +7,14 @@ import { Colors } from '../../constants/Colors';
 
 import { useUser } from '@/contexts/UserContext';
 import {
-  ActivityIndicator,
-  Alert,
-  Pressable,
-  RefreshControl,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
+    ActivityIndicator,
+    Alert,
+    Pressable,
+    RefreshControl,
+    ScrollView,
+    StyleSheet,
+    Text,
+    View,
 } from 'react-native';
 import type { Filters } from './filter';
 
@@ -324,7 +324,7 @@ export default function EventList({
     return (
       <View style={styles.loadingContainer}>
         <ActivityIndicator size="small" color="#5CAEF1" />
-        <Text style={[styles.loadingText, { color: textColor, fontFamily: 'Poppins-Regular' }]}>Loading events...</Text>
+        <Text style={[styles.loadingText, { color: textColor, fontFamily: 'Arial' }]}>Loading events...</Text>
       </View>
     );
   }

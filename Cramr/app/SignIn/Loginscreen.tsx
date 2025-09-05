@@ -160,7 +160,7 @@ const LoginScreen = () => {
                        <Text style={[styles.errorText, { textAlign: 'center' }]}>{loginMessage}</Text>
                    )}
                    {loginStatus === 'success' && (
-                       <Text style={{ color: 'green', textAlign: 'center', marginBottom: 10 , fontFamily: 'Poppins-Regular', fontSize: 14}}>{loginMessage}</Text>
+                       <Text style={{ color: 'green', textAlign: 'center', marginBottom: 10 , fontFamily: 'Arial', fontSize: 14}}>{loginMessage}</Text>
                    )}
 
                     <View style={styles.loginLinkContainer}>
@@ -209,7 +209,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
        marginTop: -60,
        color: textColor,
        marginBottom: 16,
-       fontFamily: 'Poppins-SemiBold'
+       fontFamily: 'Arial'
    },
    formContainer: {
        marginBottom: 24,
@@ -239,7 +239,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
        flex: 1,
        fontSize: 16,
        color: textColor,
-       fontFamily: 'Poppins-Regular'
+       fontFamily: 'Arial'
    },
    passwordInput: {
        paddingRight: 40,
@@ -260,7 +260,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
    signUpButtonText: {
        color: textColor,
        fontSize: 18,
-       fontFamily: 'Poppins-Regular',
+       fontFamily: 'Arial',
    },
    loginLinkContainer: {
        flexDirection: 'row',
@@ -271,23 +271,23 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
    },
    loginText: {
        fontSize: 16,
-       fontFamily: 'Poppins-Regular',
+       fontFamily: 'Arial',
        color: textColor,
    },
    signInText: {
        fontSize: 16,
-       fontFamily: 'Poppins-Bold',
+       fontFamily: 'Arial',
        color: '#5CAEF1',
        fontWeight: '500',
    },
    inputError: {
        borderColor: '#E36062',
-       fontFamily: 'Poppins-Regular',
+       fontFamily: 'Arial',
        fontSize: 14,
    },
    errorText: {
        color: '#E36062',
-       fontFamily: 'Poppins-Regular',
+       fontFamily: 'Arial',
        fontSize: 14,
        marginTop: 5,
        marginLeft: 5,

@@ -2,19 +2,19 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft, Plus, X } from 'lucide-react-native';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-  Alert,
-  FlatList,
-  Image,
-  KeyboardAvoidingView,
-  Platform,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  Vibration,
-  View
+    Alert,
+    FlatList,
+    Image,
+    KeyboardAvoidingView,
+    Platform,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    Vibration,
+    View
 } from 'react-native';
 import { Colors } from '../../constants/Colors';
 import { useUser } from '../../contexts/UserContext';
@@ -379,7 +379,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginLeft: 60,
   },
   modeContainer: {
@@ -400,11 +400,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   roundText: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginTop: 10
   },
@@ -419,7 +419,7 @@ const styles = StyleSheet.create({
   },
   gifCredit: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 20,
     opacity: 0.7,
@@ -427,11 +427,11 @@ const styles = StyleSheet.create({
   timerIcon: {
     color: 'white',
     fontSize: 24,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   timer: {
     fontSize: 50,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   controlsContainer: {
     flexDirection: 'row',
@@ -454,7 +454,7 @@ const styles = StyleSheet.create({
   },
   controlButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   divider: {
     height: 1,
@@ -465,7 +465,7 @@ const styles = StyleSheet.create({
   },
   tasksTitle: {
     fontSize: 16,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     marginBottom: 15,
   },
   tasksList: {
@@ -481,7 +481,7 @@ const styles = StyleSheet.create({
   },
   taskText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     flex: 1,
   },
   addTaskContainer: {
@@ -494,7 +494,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginRight: 10,
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   addButton: {
     backgroundColor: '#5CAEF1',

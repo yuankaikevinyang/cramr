@@ -1,13 +1,13 @@
 import * as ImagePicker from "expo-image-picker";
 import React, { useCallback, useEffect, useState } from "react";
 import {
-  Alert,
-  Image,
-  Modal,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    Alert,
+    Image,
+    Modal,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from "react-native";
 import { Colors } from '../constants/Colors';
 
@@ -195,13 +195,13 @@ const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 10,
     textAlign: 'center',
   },
   modalMessage: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginBottom: 25,
     textAlign: 'center',
     lineHeight: 20,
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
   },
   cancelButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     color: '#666',
   },
   removeButtonModal: {
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
   },
   removeButtonModalText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     color: '#FFFFFF',
     fontWeight: '500',
   },

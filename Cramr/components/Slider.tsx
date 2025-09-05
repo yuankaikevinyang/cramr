@@ -69,7 +69,7 @@ const Slider: React.FC<SliderProps> = ({
 
 const styles = StyleSheet.create({
     bodyText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 14,
     },
     track: {

@@ -330,12 +330,12 @@ const styles = StyleSheet.create({
 
   chatName: {
     fontSize: 18,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 
   chatUsername: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 
   // Messages Styles
@@ -377,7 +377,7 @@ const styles = StyleSheet.create({
 
   messageText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 
   // Input Styles
@@ -396,7 +396,7 @@ const styles = StyleSheet.create({
   messageInput: {
     flex: 1,
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     padding: 5,
   },
 

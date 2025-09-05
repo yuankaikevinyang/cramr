@@ -2,12 +2,12 @@ import { useUser } from '@/contexts/UserContext';
 import { Ionicons } from '@expo/vector-icons';
 import React, { useEffect, useState, } from 'react';
 import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
+    FlatList,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View,
 } from 'react-native';
 import { Colors } from '../constants/Colors';
 
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   },
   tagText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   
   // Search box
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     padding: 5,
   },
   
@@ -247,11 +247,11 @@ const styles = StyleSheet.create({
   },
   friendName: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   friendUsername: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   
   // Messages
@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 14,
     padding: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontStyle: 'italic',
   },
 });

@@ -2,12 +2,12 @@ import { useRouter } from 'expo-router';
 import React from 'react';
 
 import {
-  FlatList,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    FlatList,
+    Image,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import { Colors } from '../../constants/Colors';
 import { useUser } from '../../contexts/UserContext';
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: '600',
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 16,
   },
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
   blockNumber: {
     fontSize: 16,
     fontWeight: '600',
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   rule: {
     height: 1,
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
   },
   rowRank: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     width: 30,
   },
   rowAvatar: {
@@ -279,11 +279,11 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     fontWeight: '400',
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   rowEvents: {
     fontSize: 14,
     fontWeight: '400',
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
 });

@@ -4,14 +4,14 @@ import React, { useState } from 'react';
 import { useUser } from '../../../contexts/UserContext';
 
 import {
-  Modal,
-  Pressable,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    Modal,
+    Pressable,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import { Colors } from '../../../constants/Colors';
 
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     alignSelf: 'center',
     marginBottom: 20,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   backArrowImage: {
     width: 25,
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   itemText: {
     fontSize: 16,
     // color moved to inline style
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   signOutButton: {
     backgroundColor: '#5CAEF1',
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     // textAlign: 'center',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   modalBackground: {
     flex: 1,
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginBottom: 15,
     textAlign: 'center',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   modalButtons: {
     flexDirection: 'row',
@@ -210,12 +210,12 @@ const styles = StyleSheet.create({
   cancelText: {
     fontSize: 16,
     color: '#000000',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   confirmText: {
     fontSize: 16,
     color: '#000000',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 });
 

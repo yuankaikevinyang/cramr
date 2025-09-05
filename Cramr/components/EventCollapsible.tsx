@@ -366,12 +366,12 @@ const EventCollapsible: React.FC<EventCollapsibleProps> = ({
 
 const styles = StyleSheet.create({
   // Text
-  headerText: { fontFamily: 'Poppins-SemiBold', fontSize: 18 },
-  subheaderText: { fontFamily: 'Poppins-Regular', fontSize: 16 },
-  subheaderBoldText: { fontFamily: 'Poppins-SemiBold', fontSize: 16 },
-  normalText: { fontFamily: 'Poppins-Regular', fontSize: 14 },
-  normalBoldText: { fontFamily: 'Poppins-SemiBold', fontSize: 14 },
-  smallText: { fontFamily: 'Poppins-Regular', fontSize: 12, flexWrap: 'wrap' },
+  headerText: { fontFamily: 'Arial', fontSize: 18 },
+  subheaderText: { fontFamily: 'Arial', fontSize: 16 },
+  subheaderBoldText: { fontFamily: 'Arial', fontSize: 16 },
+  normalText: { fontFamily: 'Arial', fontSize: 14 },
+  normalBoldText: { fontFamily: 'Arial', fontSize: 14 },
+  smallText: { fontFamily: 'Arial', fontSize: 12, flexWrap: 'wrap' },
 
   eventContainer: {
     flexDirection: 'column',

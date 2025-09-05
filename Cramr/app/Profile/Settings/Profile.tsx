@@ -414,19 +414,19 @@ export default function Profile() {
 
 const styles = StyleSheet.create({
   headerText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 18,
   },
   subheaderText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   bodyText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
   captionText: {
-    fontFamily: 'Poppins-Light',
+    fontFamily: 'Arial',
     fontSize: 12,
   },
   container: {
@@ -484,7 +484,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   messageText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 16,
     textAlign: 'center',
     

@@ -3,20 +3,20 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ArrowLeft, Edit3, Plus, Save } from 'lucide-react-native';
 import React, { useEffect, useState } from 'react';
 import {
-  Alert,
-  Dimensions,
-  Keyboard,
-  KeyboardAvoidingView,
-  Modal,
-  Platform,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View
+    Alert,
+    Dimensions,
+    Keyboard,
+    KeyboardAvoidingView,
+    Modal,
+    Platform,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    View
 } from 'react-native';
 import { Colors } from '../../constants/Colors';
 import { useUser } from '../../contexts/UserContext';
@@ -684,22 +684,22 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 24,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     marginBottom: 5,
   },
   description: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginBottom: 5,
   },
   editHint: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontStyle: 'italic',
   },
   headingInput: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     borderWidth: 1,
     borderRadius: 10,
     padding: 10,
@@ -707,7 +707,7 @@ const styles = StyleSheet.create({
   },
   descriptionInput: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     borderWidth: 1,
     borderRadius: 10,
     padding: 10,
@@ -725,10 +725,10 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
   cancelButtonText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   saveButtonText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 
   // Flashcards
@@ -784,7 +784,7 @@ const styles = StyleSheet.create({
   cancelText: {
     color: '#666',
     fontSize: 12,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Arial',
   },
   deleteButton: {
     padding: 5,
@@ -792,27 +792,27 @@ const styles = StyleSheet.create({
   deleteButtonText: {
     color: '#E36062',
     fontSize: 18,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   flashcardSide: {
     flex: 1,
   },
   flashcardLabel: {
     fontSize: 12,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     textTransform: 'uppercase',
     letterSpacing: 0.5,
     marginBottom: 8,
   },
   flashcardText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     lineHeight: 22,
     minHeight: 44,
   },
   flashcardInput: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     borderWidth: 1,
     borderRadius: 8,
     padding: 10,
@@ -826,13 +826,13 @@ const styles = StyleSheet.create({
   },
   flipHintText: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontStyle: 'italic',
   },
   loadingText: {
     textAlign: 'center',
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginTop: 50,
   },
   emptyContainer: {
@@ -841,13 +841,13 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 18,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 8,
   },
   emptySubtext: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
   },
 
@@ -875,13 +875,13 @@ const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 20,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 12,
   },
   modalMessage: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 16,
     lineHeight: 22,
@@ -893,13 +893,13 @@ const styles = StyleSheet.create({
   },
   cardPreviewText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     fontStyle: 'italic',
   },
   modalWarning: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 24,
   },
@@ -922,6 +922,6 @@ const styles = StyleSheet.create({
   },
   modalButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
 });

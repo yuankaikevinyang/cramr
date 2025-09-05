@@ -323,9 +323,9 @@ export default function HomeScreen() {
                       style={styles.personAvatar} 
                     />
                     <View style={styles.personDetails}>
-                      <Text style={[styles.personName, {color:textColor, fontFamily: 'Poppins-Regular'}]}>{person.full_name || 'Unknown'}</Text>
-                      <Text style={[styles.personUsername, {color:textColor, fontFamily: 'Poppins-Regular'}]}>@{person.username}</Text>
-                      <Text style={[styles.personStats, {color: textColor, fontFamily: 'Poppins-Regular'}]}>
+                      <Text style={[styles.personName, {color:textColor, fontFamily: 'Arial'}]}>{person.full_name || 'Unknown'}</Text>
+                      <Text style={[styles.personUsername, {color:textColor, fontFamily: 'Arial'}]}>@{person.username}</Text>
+                      <Text style={[styles.personStats, {color: textColor, fontFamily: 'Arial'}]}>
                         {person.following || 0} following • {person.followers || 0} followers
                       </Text>
                     </View>
@@ -480,7 +480,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   searchInputContent: {
-    fontFamily: 'Poppins-Regular', // This applies the font to the input text and placeholder
+    fontFamily: 'Arial', // This applies the font to the input text and placeholder
   },
   searchInputOutline: {
     borderRadius: 10, // This ensures the outline respects the border radius
@@ -565,11 +565,11 @@ const styles = StyleSheet.create({
   personUsername: { fontSize: 14, marginBottom: 2 },
   personStats: { fontSize: 12},
   followButton: { backgroundColor: '#5CAEF1', padding: 10, borderRadius: 10 },
-  followButtonText: {fontSize: 14, fontFamily: 'Poppins-Regular',},
+  followButtonText: {fontSize: 14, fontFamily: 'Arial',},
   followingButton: { backgroundColor: '#e0e0e0' },
   followingButtonText: { color: '#666' },
 
   emptyContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingVertical: 50 },
-  emptyText: { fontSize: 16, textAlign: 'center', fontFamily: 'Poppins-Regular' },
+  emptyText: { fontSize: 16, textAlign: 'center', fontFamily: 'Arial' },
   debugText: { fontSize: 12, padding: 10, backgroundColor: '#f0f0f0', marginBottom: 10 },
 });

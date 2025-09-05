@@ -210,7 +210,7 @@ const Dropdown: React.FC<DropdownProps> = ({
 
 const styles = StyleSheet.create({
     bodyText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 14,
     },
     container: {

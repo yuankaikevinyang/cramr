@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
         paddingVertical: 20,
     },
     normalText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 14,
     },
 });

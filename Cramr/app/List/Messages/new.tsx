@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   sendButton: {
     paddingHorizontal: 16,
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
   sendButtonText: {
     fontSize: 14,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   formContainer: {
     flex: 1,
@@ -199,21 +199,21 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 8,
   },
   input: {
     borderRadius: 10,
     padding: 12,
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     borderWidth: 1,
   },
   messageInput: {
     borderRadius: 10,
     padding: 12,
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     height: 200,
     borderWidth: 1,
   },

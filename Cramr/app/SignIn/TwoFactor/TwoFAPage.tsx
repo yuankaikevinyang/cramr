@@ -193,13 +193,13 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 24,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Arial',
         textAlign: 'center',
         marginBottom: 12,
     },
     subtitle: {
         fontSize: 14,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         textAlign: 'center',
         marginBottom: 24,
     },
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
         width: 49,
         height: 78,
         fontSize: 18,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         borderRadius: 8,
         borderWidth: 1,
         textAlign: 'center',
@@ -228,28 +228,28 @@ const styles = StyleSheet.create({
         marginTop: 12,
     },
     submitText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 16,
     },
     resendText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 16,
         textAlign: 'center',
         marginTop: 20,
     },
     resendLink: {
         fontSize: 16,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Arial',
     },
     countdown: {
         fontSize: 16,
-        fontFamily: 'Poppins-Bold',
+        fontFamily: 'Arial',
     },
     errorText: {
         textAlign: 'center',
         fontSize: 16,
         marginTop: 6,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
     },
 });
 

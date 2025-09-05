@@ -4,16 +4,16 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 import React, { useEffect, useMemo, useState } from "react";
 import {
-  KeyboardAvoidingView,
-  LayoutAnimation,
-  Platform,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  UIManager,
-  View
+    KeyboardAvoidingView,
+    LayoutAnimation,
+    Platform,
+    SafeAreaView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    UIManager,
+    View
 } from "react-native";
 import { Colors } from '../../../constants/Colors';
 
@@ -198,14 +198,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     fontWeight: '700',
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     marginBottom: 10,
     marginTop: 50,
     textAlign: 'center',
   },
   subtitle: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
   },
   fieldBlock: {
@@ -228,12 +228,12 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     paddingLeft: 48, // Make room for the icon
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   errorText: {
     color: '#E36062',
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginTop: 6,
   },
   primaryBtn: {
@@ -247,17 +247,17 @@ const styles = StyleSheet.create({
   primaryBtnText: {
     fontSize: 16,
     fontWeight: '600',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   successText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginTop: 12,
   },
   finePrint: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     lineHeight: 20,
   },

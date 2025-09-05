@@ -275,14 +275,14 @@ const getStyles = (isDarkMode: boolean) => StyleSheet.create({
         color: isDarkMode ? '#FFFFFF' : '#111827',
         textAlign: 'center',
         marginBottom: 16,
-        fontFamily: 'Poppins-SemiBold',
+        fontFamily: 'Arial',
     },
     description: {
         fontSize: 16,
         color: isDarkMode ? '#9CA3AF' : '#6B7280',
         textAlign: 'center',
         marginBottom: 20,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
     },
     fieldContainer: {
         marginBottom: 20,
@@ -309,7 +309,7 @@ const getStyles = (isDarkMode: boolean) => StyleSheet.create({
         flex: 1,
         fontSize: 16,
         color: isDarkMode ? '#FFFFFF' : '#111827',
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
     },
     passwordInput: {
         paddingRight: 40,
@@ -324,7 +324,7 @@ const getStyles = (isDarkMode: boolean) => StyleSheet.create({
         fontSize: 14,
         marginTop: 4,
         marginLeft: 4,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
     },
     resetButton: {
         backgroundColor: '#5CAEF1',
@@ -337,12 +337,12 @@ const getStyles = (isDarkMode: boolean) => StyleSheet.create({
         backgroundColor: '#9CA3AF',
     },
     resetButtonText: {
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         fontSize: 16,
     },
     messageText: {
         fontSize: 14,
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         textAlign: 'center',
         marginTop: 10,
     },

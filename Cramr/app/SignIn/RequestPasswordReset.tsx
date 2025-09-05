@@ -212,7 +212,7 @@ const RequestPasswordResetScreen = () => {
             color: textColor,
             textAlign: 'center',
             marginBottom: 16,
-            fontFamily: 'Poppins-SemiBold',
+            fontFamily: 'Arial',
         },
         description: {
             fontSize: 16,
@@ -220,7 +220,7 @@ const RequestPasswordResetScreen = () => {
             textAlign: 'center',
             marginBottom: 20,
             lineHeight: 22,
-            fontFamily: 'Poppins-Regular',
+            fontFamily: 'Arial',
         },
         fieldContainer: {
             marginBottom: 20,
@@ -245,7 +245,7 @@ const RequestPasswordResetScreen = () => {
             flex: 1,
             fontSize: 16,
             color: textColor,
-            fontFamily: 'Poppins-Regular',
+            fontFamily: 'Arial',
         },
         resendButton: {
             alignSelf: 'center',
@@ -256,7 +256,7 @@ const RequestPasswordResetScreen = () => {
         resendButtonText: {
             color: '#5CAEF1',
             fontSize: 16,
-            fontFamily: 'Poppins-SemiBold',
+            fontFamily: 'Arial',
         },
         resetButton: {
             backgroundColor: '#5CAEF1',
@@ -270,12 +270,12 @@ const RequestPasswordResetScreen = () => {
         },
         resetButtonText: {
             fontSize: 16,
-            fontFamily: 'Poppins-Regular',
+            fontFamily: 'Arial',
             color: textColor,
         },
         messageText: {
             fontSize: 16,
-            fontFamily: 'Poppins-Regular',
+            fontFamily: 'Arial',
             textAlign: 'center',
             marginTop: 10,
         },
@@ -370,7 +370,7 @@ const RequestPasswordResetScreen = () => {
                             onPress={handleResendCode}
                             disabled={isLoading}
                         >
-                            <Text style={{ color: placeholderColor, fontFamily: 'Poppins-Regular', fontSize: 16 }}>Didn't receive the code? </Text>
+                            <Text style={{ color: placeholderColor, fontFamily: 'Arial', fontSize: 16 }}>Didn't receive the code? </Text>
                             <Text style={styles.resendButtonText}>Resend Code</Text>
                         </TouchableOpacity>
                     </View>

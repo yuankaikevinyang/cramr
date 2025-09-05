@@ -518,7 +518,7 @@ const styles = StyleSheet.create({
   starText: {
     fontSize: 14,
     marginTop: 5,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     textAlign: 'center',
   },
   map: {
@@ -591,7 +591,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   searchInput: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     backgroundColor: 'transparent',
     height: 44,
     fontSize: 16,
@@ -633,7 +633,7 @@ const styles = StyleSheet.create({
     bottom: -5,
   },
   searchInputContent: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   searchInputOutline: {
     borderRadius: 10,

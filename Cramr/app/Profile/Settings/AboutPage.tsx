@@ -2,11 +2,11 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    View
 } from 'react-native';
 import { Colors } from '../../../constants/Colors';
 import { useUser } from '../../../contexts/UserContext';
@@ -104,23 +104,23 @@ const AboutPage = () => {
 const styles = StyleSheet.create({
   // Text
   headerText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 18,
   },
   subheaderText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   subheaderBoldText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   normalText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
   normalBoldText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
 
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     alignSelf: 'center',
     marginBottom: 20,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginTop: -25,
   },
   input: {
@@ -161,10 +161,10 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     height: 200,
     // backgroundColor moved to inline style
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   text: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   item: {
     paddingVertical: 16,
@@ -172,7 +172,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f2f2f2',
     borderRadius: 10,
     marginBottom: 10,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   itemText: {
     fontSize: 14,
@@ -201,7 +201,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginBottom: 10,
     // color moved to inline style
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   divider: {
     height: 1,

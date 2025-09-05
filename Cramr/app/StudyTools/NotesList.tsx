@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     alignSelf: 'center',
     marginBottom: 20,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   backArrowImage: {
     width: 25,
@@ -70,6 +70,6 @@ const styles = StyleSheet.create({
   itemText: {
     fontSize: 16,
     // color moved to inline style
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 });

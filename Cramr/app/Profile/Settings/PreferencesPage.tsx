@@ -2,10 +2,10 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft } from 'lucide-react-native';
 import React, { useEffect, useState } from 'react';
 import {
-  SafeAreaView, ScrollView, StyleSheet,
-  Switch,
-  Text,
-  TouchableOpacity
+    SafeAreaView, ScrollView, StyleSheet,
+    Switch,
+    Text,
+    TouchableOpacity
 } from 'react-native';
 import Slider from '../../../components/Slider';
 import { Colors } from '../../../constants/Colors';
@@ -170,7 +170,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
       marginBottom: 20,
       marginTop: -25,
       color: textColor,
-      fontFamily: 'Poppins-SemiBold',
+      fontFamily: 'Arial',
     },
     toggleGroup: {
       alignItems: 'flex-start',
@@ -180,7 +180,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
       fontSize: 16,
       color: textColor,
       marginBottom: 5,
-      fontFamily: 'Poppins-Regular',
+      fontFamily: 'Arial',
     },
     switch: {
       width: 40,
@@ -191,7 +191,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
       fontSize: 16,
       fontWeight: '500',
       color: textColor,
-      fontFamily: 'Poppins-Regular',
+      fontFamily: 'Arial',
     },
     saveButton: {
       backgroundColor: '#5CAEF1',
@@ -203,7 +203,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
       color: textColor,
       fontSize: 16,
       textAlign: 'center',
-      fontFamily: 'Poppins-Regular',
+      fontFamily: 'Arial',
     },
   });
 

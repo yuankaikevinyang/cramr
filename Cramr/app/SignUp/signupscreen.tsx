@@ -410,7 +410,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
     input: {
         flex: 1,
         fontSize: 16,
-        fontFamily: 'Poppins-Regular'
+        fontFamily: 'Arial'
     },
     passwordInput: {
         paddingRight: 40,
@@ -430,7 +430,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
     signUpButtonText: {
         fontSize: 16,
         fontWeight: '500',
-        fontFamily: 'Poppins-Regular',
+        fontFamily: 'Arial',
         color: textColor
     },
     loginLinkContainer: {
@@ -440,12 +440,12 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
     },
     loginText: {
         fontSize: 14,
-        fontFamily: 'Poppins-Regular'
+        fontFamily: 'Arial'
     },
     signInText: {
         fontSize: 14,
         color: primaryColor,
-        fontFamily: 'Poppins-SemiBold',
+        fontFamily: 'Arial',
         marginBottom: 1,
     },
     inputError: {
@@ -456,7 +456,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
         fontSize: 14,
         marginTop: 4,
         marginLeft: 4,
-        fontFamily: 'Poppins-Regular'
+        fontFamily: 'Arial'
     },
 });
 

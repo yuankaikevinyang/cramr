@@ -96,7 +96,7 @@ export default function FilterModal({ visible, onClose, onSave }: Props) {
                     },
                   }}
                 >
-                  <Text style={{ color: textColor, fontFamily: 'Poppins-Regular', fontSize: 14 }}>Mi</Text>
+                  <Text style={{ color: textColor, fontFamily: 'Arial', fontSize: 14 }}>Mi</Text>
                 </Button>
                 <Button
                   mode={unit === 'km' ? 'outlined' : 'contained'}
@@ -109,7 +109,7 @@ export default function FilterModal({ visible, onClose, onSave }: Props) {
                     },
                   }}
                 >
-                  <Text style={{ color: textColor, fontFamily: 'Poppins-Regular', fontSize: 14 }}>Km</Text>
+                  <Text style={{ color: textColor, fontFamily: 'Arial', fontSize: 14 }}>Km</Text>
                 </Button>
               </View>
               <Slider
@@ -127,7 +127,7 @@ export default function FilterModal({ visible, onClose, onSave }: Props) {
                   alignSelf: 'center',
                   marginBottom: 24,
                   fontSize: 14,
-                  fontFamily: 'Poppins-Regular',
+                  fontFamily: 'Arial',
                   color: textColor,
                 }}
               >
@@ -154,7 +154,7 @@ export default function FilterModal({ visible, onClose, onSave }: Props) {
                   alignSelf: 'center',
                   marginBottom: 24,
                   color: textColor,
-                  fontFamily: 'Poppins-Regular',
+                  fontFamily: 'Arial',
                   fontSize: 14,
                 }}
               >
@@ -166,13 +166,13 @@ export default function FilterModal({ visible, onClose, onSave }: Props) {
 
         <View style={styles.footer}>
           <Pressable style={[styles.footerBtn, { backgroundColor: '#f37b7b' }]} onPress={reset}>
-            <Text style={{ color: textColor, fontFamily: 'Poppins-Regular', fontSize: 16 }}>Reset</Text>
+            <Text style={{ color: textColor, fontFamily: 'Arial', fontSize: 16 }}>Reset</Text>
           </Pressable>
           <Pressable
             style={[styles.footerBtn, { backgroundColor: '#5caef1' }]}
             onPress={step === 0 ? handleSave : nextOrSave}
           >
-            <Text style={{ color: textColor, fontFamily: 'Poppins-Regular', fontSize: 16 }}>
+            <Text style={{ color: textColor, fontFamily: 'Arial', fontSize: 16 }}>
               {step === 0 ? 'Save' : 'Next'}
             </Text>
           </Pressable>
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     alignSelf: 'center',
     marginBottom: 10,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   content: {
     marginTop: 5,
@@ -220,11 +220,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     marginBottom: 4,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   inputValue: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   footer: {
     flexDirection: 'row',

@@ -94,7 +94,7 @@
 //   title: {
 //     fontSize: 28,
 //     fontWeight: 'bold',
-//     fontFamily: 'Poppins-Bold',
+//     fontFamily: 'Arial',
 //   },
 //   scrollView: {
 //     flex: 1,
@@ -117,7 +117,7 @@
 //   buttonText: {
 //     fontSize: 16,
 //     fontWeight: '500',
-//     fontFamily: 'Poppins-Medium',
+//     fontFamily: 'Arial',
 //   },
 // });
 

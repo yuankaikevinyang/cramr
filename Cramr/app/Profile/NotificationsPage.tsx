@@ -180,7 +180,7 @@ export default function NotificationsPage({ navigation }: { navigation: any }) {
               <View key={notif.id} style={[styles.notifBox, { backgroundColor: textInputColor }]}>
                 <Text>
                   <Text style={[styles.bold, { color: textColor }]}>{notif.sender}</Text>
-                  <Text style={{ color: textColor, fontFamily: 'Poppins-Regular' }}> {notif.message}</Text>
+                  <Text style={{ color: textColor, fontFamily: 'Arial' }}> {notif.message}</Text>
                 </Text>
                 
                 {/* Event Invitation Action Buttons */}
@@ -258,14 +258,14 @@ const styles = StyleSheet.create({
     padding: 2,
   },
   title: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 18,
     color: '#222',
     marginBottom: 10,
     alignSelf: 'center',
   },
   dateHeader: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 16,
     marginVertical: 5,
     marginLeft: 5
@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
   },
   bold: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     color: '#222',
   },
   actionButtonsContainer: {
@@ -305,12 +305,12 @@ const styles = StyleSheet.create({
   },
   acceptButtonText: {
     color: 'white',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
   rejectButtonText: {
     color: 'white',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
   viewEventButton: {
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
   },
   viewEventButtonText: {
     color: 'white',
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
 

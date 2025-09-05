@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     alignSelf: 'center',
     marginBottom: 20,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   backButton: {
     width: 25,

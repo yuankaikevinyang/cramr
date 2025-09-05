@@ -383,7 +383,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginBottom: 20,
     marginTop: -40,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   backButton: {
     width: 25,
@@ -413,7 +413,7 @@ const styles = StyleSheet.create({
   },
   trackTitle: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 10,
     textAlign: 'center',
     alignSelf: 'center',
@@ -432,12 +432,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: 'center',
     marginTop: 20,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   backgroundInfo: {
     fontSize: 14,
     textAlign: 'center',
     marginTop: 10,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 });

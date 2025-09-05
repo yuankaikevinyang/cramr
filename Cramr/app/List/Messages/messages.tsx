@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
   
   headerTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   
   createButton: {
@@ -248,16 +248,16 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   lastMessage: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginTop: 2,
   },
   timeAgo: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   removeButton: {
     padding: 5,
@@ -272,7 +272,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 });
 

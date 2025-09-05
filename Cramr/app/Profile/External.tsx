@@ -613,23 +613,23 @@ export default function External() {
 const styles = StyleSheet.create({
   // Text
   headerText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 18,
   },
   subheaderText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   subheaderBoldText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   normalText: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
   normalBoldText: {
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     fontSize: 14,
   },
 
@@ -764,6 +764,6 @@ const styles = StyleSheet.create({
   },
   modalButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
 });

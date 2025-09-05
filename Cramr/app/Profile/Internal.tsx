@@ -664,11 +664,11 @@ export default function Internal() {
 
 // --- Styles ---
 const styles = StyleSheet.create({
-  headerText: { fontFamily: 'Poppins-SemiBold', fontSize: 18 },
-  subheaderText: { fontFamily: 'Poppins-Regular', fontSize: 16 },
-  subheaderBoldText: { fontFamily: 'Poppins-SemiBold', fontSize: 16 },
-  normalText: { fontFamily: 'Poppins-Regular', fontSize: 14 },
-  normalBoldText: { fontFamily: 'Poppins-SemiBold', fontSize: 14 },
+  headerText: { fontFamily: 'Arial', fontSize: 18 },
+  subheaderText: { fontFamily: 'Arial', fontSize: 16 },
+  subheaderBoldText: { fontFamily: 'Arial', fontSize: 16 },
+  normalText: { fontFamily: 'Arial', fontSize: 14 },
+  normalBoldText: { fontFamily: 'Arial', fontSize: 14 },
 
   container: { padding: 20, flex: 1 },
   logoContainer: { height: 27, width: 120, marginTop: 15 },
@@ -726,13 +726,13 @@ const styles = StyleSheet.create({
     width: 26, height: 26, borderRadius: 13, alignItems: 'center', justifyContent: 'center',
     backgroundColor: '#F5E7A3', marginRight: 10,
   },
-  rankBadgeText: { fontFamily: 'Poppins-SemiBold', fontSize: 14 },
+  rankBadgeText: { fontFamily: 'Arial', fontSize: 14 },
   lbAvatar: { width: 28, height: 28, borderRadius: 14, marginRight: 10 },
-  lbName: { fontFamily: 'Poppins-SemiBold', fontSize: 14, flexShrink: 1 },
-  lbEvents: { fontFamily: 'Poppins-SemiBold', fontSize: 14 },
+  lbName: { fontFamily: 'Arial', fontSize: 14, flexShrink: 1 },
+  lbEvents: { fontFamily: 'Arial', fontSize: 14 },
 
   messageContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
-  messageText: { fontFamily: 'Poppins-Regular', fontSize: 16, textAlign: 'center' },
+  messageText: { fontFamily: 'Arial', fontSize: 16, textAlign: 'center' },
 
   bottomNav: {
     position: 'absolute', bottom: 0, left: 0, right: 0,

@@ -942,8 +942,8 @@ console.log('UserContext userId:', userId);
                     />
                   </TouchableOpacity>
                   <View style={{ flex: 1 ,}}>
-                    <Text style={{ color: textColor, fontFamily: 'Poppins-SemiBold' }}>{c.full_name || c.username}</Text>
-                    <Text style={{ color: placeholderTextColor, fontFamily: 'Poppins-Regular', fontSize: 12 }}>
+                    <Text style={{ color: textColor, fontFamily: 'Arial' }}>{c.full_name || c.username}</Text>
+                    <Text style={{ color: placeholderTextColor, fontFamily: 'Arial', fontSize: 12 }}>
                       {new Date(c.created_at).toLocaleDateString()}
                     </Text>
                   </View>
@@ -953,7 +953,7 @@ console.log('UserContext userId:', userId);
                     </TouchableOpacity>
                   )}
                 </View>
-                <Text style={{ color: textColor, fontFamily: 'Poppins-Regular', lineHeight: 20, marginLeft: 40 }}>
+                <Text style={{ color: textColor, fontFamily: 'Arial', lineHeight: 20, marginLeft: 40 }}>
                   {c.content}
                 </Text>
               </View>
@@ -995,7 +995,7 @@ console.log('UserContext userId:', userId);
             </View>
 
             <KeyboardAwareScrollView style={styles.modalBody}>
-              <Text style={[styles.inputLabel, {fontFamily: 'Poppins-Regular', color: textColor }]}>Title *</Text>
+              <Text style={[styles.inputLabel, {fontFamily: 'Arial', color: textColor }]}>Title *</Text>
               <TextInput
                 style={[styles.uploadInput, { backgroundColor: textInputColor, color: textColor }]}
                 placeholder="Enter material title"
@@ -1004,7 +1004,7 @@ console.log('UserContext userId:', userId);
                 onChangeText={setUploadTitle}
               />
 
-              <Text style={[styles.inputLabel, {fontFamily: 'Poppins-Regular', color: textColor }]}>Description</Text>
+              <Text style={[styles.inputLabel, {fontFamily: 'Arial', color: textColor }]}>Description</Text>
               <TextInput
                 style={[styles.uploadInput, styles.descriptionInput, { backgroundColor: textInputColor, color: textColor }]}
                 placeholder="Enter description (optional)"
@@ -1121,7 +1121,7 @@ console.log('UserContext userId:', userId);
 const styles = StyleSheet.create({
   container: { flex: 1 },
   errorContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  errorText: { fontSize: 18, fontFamily: 'Poppins-Regular' },
+  errorText: { fontSize: 18, fontFamily: 'Arial' },
   scrollContent: { flexGrow: 1 },
   content: { padding: 20},
   eventCard: {
@@ -1143,7 +1143,7 @@ const styles = StyleSheet.create({
   },
   eventTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     color: '#fff',
     flex: 1,
   },
@@ -1179,7 +1179,7 @@ const styles = StyleSheet.create({
   },
   tagText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   detailsContainer: {
     marginBottom: 16,
@@ -1191,7 +1191,7 @@ const styles = StyleSheet.create({
   },
   detailText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginLeft: 8,
     flex: 1,
   },
@@ -1217,7 +1217,7 @@ const styles = StyleSheet.create({
   },
   avatarText: {
     fontSize: 10,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   infoSection: {
     marginBottom: 20,
@@ -1228,7 +1228,7 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginLeft: 8,
     flex: 1,
     lineHeight: 20,
@@ -1253,11 +1253,11 @@ const styles = StyleSheet.create({
   },
   rsvpButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   editButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   saveButtonContainer: {
     alignContent: 'center',
@@ -1268,7 +1268,7 @@ const styles = StyleSheet.create({
   },
   commentsTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 10,
   },
   addCommentContainer: {
@@ -1284,7 +1284,7 @@ const styles = StyleSheet.create({
     marginRight: -40,
     maxHeight: 100,
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   sendButton: {
     padding: 8,
@@ -1318,7 +1318,7 @@ const styles = StyleSheet.create({
   },
   commentAuthor: {
     fontSize: 14,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   eventOwnerTag: {
     backgroundColor: '#5CAEF1',
@@ -1328,16 +1328,16 @@ const styles = StyleSheet.create({
   },
   eventOwnerTagText: {
     fontSize: 10,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Arial',
     color: '#fff',
   },
   commentTime: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   commentContent: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     lineHeight: 20,
     marginLeft: 40,
   },
@@ -1346,7 +1346,7 @@ const styles = StyleSheet.create({
   },
   deleteButtonText: {
     fontSize: 18,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   studyMaterialsSection: {
     borderRadius: 16,
@@ -1356,7 +1356,7 @@ const styles = StyleSheet.create({
   },
   studyMaterialsTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 10,
     marginTop: 20,
   },
@@ -1380,7 +1380,7 @@ const styles = StyleSheet.create({
   },
   addMaterialPlus: {
     fontSize: 30,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   materialCard: {
     padding: 12,
@@ -1398,13 +1398,13 @@ const styles = StyleSheet.create({
   },
   materialTitle: {
     fontSize: 14,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Arial',
     flex: 1,
     marginRight: 8,
   },
   materialInfo: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   // Modal Styles
   modalContainer: {
@@ -1423,14 +1423,14 @@ const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 20,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   modalBody: {
     flex: 1,
   },
   inputLabel: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 8,
     marginTop: 16,
   },
@@ -1439,7 +1439,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     paddingVertical: 12,
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginBottom: 8,
   },
   descriptionInput: {
@@ -1459,7 +1459,7 @@ const styles = StyleSheet.create({
   },
   filePickerText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginLeft: 8,
   },
   selectedFileInfo: {
@@ -1467,12 +1467,12 @@ const styles = StyleSheet.create({
   },
   selectedFileName: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
     marginBottom: 4,
   },
   selectedFileSize: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   uploadButton: {
     paddingVertical: 15,
@@ -1483,7 +1483,7 @@ const styles = StyleSheet.create({
   },
   uploadButtonText: {
     fontSize: 16,
-    fontFamily: 'Poppins-SemiBold',
+    fontFamily: 'Arial',
   },
   materialDeleteButtonContainer: {
     padding: 4,
@@ -1495,7 +1495,7 @@ const styles = StyleSheet.create({
   },
   materialDescription: {
     fontSize: 12,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginTop: 4,
     lineHeight: 16,
   },
@@ -1540,7 +1540,7 @@ const styles = StyleSheet.create({
   },
   fileInfoText: {
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginBottom: 16,
     textAlign: 'center',
   },
@@ -1554,7 +1554,7 @@ const styles = StyleSheet.create({
      openInBrowserButtonText: {
      color: '#fff',
      fontSize: 16,
-     fontFamily: 'Poppins-SemiBold',
+     fontFamily: 'Arial',
    },
    headerRow: {
      flexDirection: 'row',
@@ -1571,7 +1571,7 @@ const styles = StyleSheet.create({
    connectionWarningText: {
      color: '#fff',
      fontSize: 12,
-     fontFamily: 'Poppins-Medium',
+     fontFamily: 'Arial',
    },
  });
  

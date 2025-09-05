@@ -2,15 +2,15 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft, Plus } from 'lucide-react-native';
 import React, { useEffect, useState } from 'react';
 import {
-  Alert,
-  Modal,
-  RefreshControl,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    Alert,
+    Modal,
+    RefreshControl,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import { Colors } from '../../constants/Colors';
 import { useUser } from '../../contexts/UserContext';
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 18,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
   },
   backButton: {
     width: 25,
@@ -331,11 +331,11 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   flashcardName: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 16,
   },
   flashcardDescription: {
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     fontSize: 14,
     marginTop: 2,
   },
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
   loadingText: {
     textAlign: 'center',
     fontSize: 16,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     marginTop: 50,
   },
   emptyContainer: {
@@ -359,13 +359,13 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 18,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 8,
   },
   emptySubtext: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
   },
   // Modal styles
@@ -392,13 +392,13 @@ const styles = StyleSheet.create({
   },
   modalTitle: {
     fontSize: 18,
-    fontFamily: 'Poppins-Bold',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 15,
   },
   modalMessage: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     textAlign: 'center',
     marginBottom: 25,
     lineHeight: 20,
@@ -423,11 +423,11 @@ const styles = StyleSheet.create({
   },
   cancelButtonText: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
   },
   deleteButtonTextModal: {
     fontSize: 14,
-    fontFamily: 'Poppins-Regular',
+    fontFamily: 'Arial',
     color: '#fff',
   },
 });
