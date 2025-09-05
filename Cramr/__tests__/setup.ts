@@ -27,14 +27,14 @@ jest.mock('@react-native-async-storage/async-storage', () =>
 );
 
 // Mock react-native-maps
-jest.mock('react-native-maps', () => {
-  const { View } = require('react-native');
-  return {
-    __esModule: true,
-    default: View,
-    Marker: View,
-  };
-});
+// jest.mock('react-native-maps', () => {
+//   const { View } = require('react-native');
+//   return {
+//     __esModule: true,
+//     default: View,
+//     Marker: View,
+//   };
+// });
 
 // Mock react-native-modal
 jest.mock('react-native-modal', () => {

@@ -13,7 +13,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:ci": "jest --ci --coverage --watchAll=false"
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "build-web": "expo export --platform web",
+    "predeploy": "npm run build-web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -64,7 +67,6 @@
     "react-native-gesture-handler": "~2.24.0",
     "react-native-google-places-textinput": "^0.8.0",
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
-    "react-native-maps": "1.20.1",
     "react-native-modal": "^14.0.0-rc.1",
     "react-native-paper": "^5.14.5",
     "react-native-parallax-scroll-view": "^0.21.3",
@@ -82,10 +84,12 @@
     "@babel/preset-typescript": "^7.27.1",
     "@testing-library/jest-native": "^5.4.3",
     "@testing-library/react-native": "^12.4.3",
+    "@types/haversine": "^1.1.8",
     "@types/jest": "^29.5.12",
     "@types/react": "~19.0.10",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
+    "gh-pages": "^6.3.0",
     "jest-expo": "~53.0.0",
     "ts-jest": "^29.4.0",
     "typescript": "~5.8.3"

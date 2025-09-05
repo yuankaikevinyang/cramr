@@ -5,7 +5,7 @@ import haversine from 'haversine';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Dimensions, Image, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { PanGestureHandler } from 'react-native-gesture-handler';
-import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+// import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import { IconButton, TextInput } from 'react-native-paper';
 import Animated, {
   useAnimatedGestureHandler,
@@ -340,7 +340,7 @@ export default function MapScreen() {
   return (
     <View style={[styles.container, { backgroundColor: backgroundColor}]}>  
       {/* Full Screen Map Background */}
-      <View style={styles.mapContainer}>
+      {/* <View style={styles.mapContainer}>
         <MapView 
           ref={mapRef}
           style={styles.map}
@@ -378,7 +378,7 @@ export default function MapScreen() {
             );
           })}
         </MapView>
-      </View>
+      </View> */}
 
       {/* Draggable Bottom Sheet */}
       <PanGestureHandler onGestureEvent={gestureHandler}>
