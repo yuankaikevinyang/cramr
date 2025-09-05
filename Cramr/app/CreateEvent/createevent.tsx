@@ -1,6 +1,6 @@
 import Slider from '@/components/Slider';
 import { useUser } from '@/contexts/UserContext';
-import GooglePlacesTextInput, { Place } from '@/node_modules/react-native-google-places-textinput/lib/typescript/src';
+import GooglePlacesTextInput, { Place } from 'react-native-google-places-textinput';
 import { Feather, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import DateTimePicker, { DateTimePickerEvent } from '@react-native-community/datetimepicker';
 import { useRouter } from 'expo-router';
