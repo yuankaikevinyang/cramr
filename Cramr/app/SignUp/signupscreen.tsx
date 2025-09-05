@@ -382,7 +382,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
         color: textColor,
         marginBottom: 30,
         marginTop: -60,
-        fontFamily: "Poppins-SemiBold"
+        fontFamily: "Arial"
     },
     formContainer: {
         marginTop: 8,
@@ -405,7 +405,7 @@ const getStyles = (isDarkMode: boolean, backgroundColor: string, textColor: stri
     },
     inputIcon: {
         marginRight: 10,
-        fontFamily: "Poppins-Regular"
+        fontFamily: "Arial"
     },
     input: {
         flex: 1,

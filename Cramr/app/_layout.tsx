@@ -11,20 +11,20 @@ import 'react-native-reanimated';
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const pathname = usePathname();
-  const [loaded] = useFonts({
-    SpaceMono: require('@/assets/fonts/SpaceMono-Regular.ttf'),
-    'Poppins-Regular': require('@/assets/fonts/Poppins/Poppins-Regular.ttf'),
-    'Poppins-SemiBold': require('@/assets/fonts/Poppins/Poppins-SemiBold.ttf'),
-    'Poppins-Bold': require('@/assets/fonts/Poppins/Poppins-Bold.ttf'),
-    'Poppins-Light': require('@/assets/fonts/Poppins/Poppins-Light.ttf'),
-  });
+  // const [loaded] = useFonts({
+  //   SpaceMono: require('@/assets/fonts/SpaceMono-Regular.ttf'),
+  //   'Poppins-Regular': require('@/assets/fonts/Poppins/Poppins-Regular.ttf'),
+  //   'Poppins-SemiBold': require('@/assets/fonts/Poppins/Poppins-SemiBold.ttf'),
+  //   'Poppins-Bold': require('@/assets/fonts/Poppins/Poppins-Bold.ttf'),
+  //   'Poppins-Light': require('@/assets/fonts/Poppins/Poppins-Light.ttf'),
+  // });
 
   
 
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
+  // if (!loaded) {
+  //   // Async font loading only occurs in development.
+  //   return null;
+  // }
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
