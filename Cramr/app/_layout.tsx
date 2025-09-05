@@ -12,11 +12,11 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const pathname = usePathname();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-    'Poppins-Regular': require('../assets/fonts/Poppins/Poppins-Regular.ttf'),
-    'Poppins-SemiBold': require('../assets/fonts/Poppins/Poppins-SemiBold.ttf'),
-    'Poppins-Bold': require('../assets/fonts/Poppins/Poppins-Bold.ttf'),
-    'Poppins-Light': require('../assets/fonts/Poppins/Poppins-Light.ttf'),
+    SpaceMono: require('../fonts/SpaceMono-Regular.ttf'),
+    'Poppins-Regular': require('../fonts/Poppins/Poppins-Regular.ttf'),
+    'Poppins-SemiBold': require('../fonts/Poppins/Poppins-SemiBold.ttf'),
+    'Poppins-Bold': require('../fonts/Poppins/Poppins-Bold.ttf'),
+    'Poppins-Light': require('../fonts/Poppins/Poppins-Light.ttf'),
   });
 
   
