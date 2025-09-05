@@ -18,7 +18,7 @@ import {
 } from 'react-native';
 import type { Filters } from './filter';
 
-import { useFocusEffect } from '@react-navigation/native';
+import { useFocusEffect } from '@/node_modules/@react-navigation/native/lib/typescript/src';
 import { useRouter } from 'expo-router';
 
 interface EventListProps {

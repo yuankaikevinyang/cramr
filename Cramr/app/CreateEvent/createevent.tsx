@@ -1,11 +1,11 @@
 import Slider from '@/components/Slider';
 import { useUser } from '@/contexts/UserContext';
+import GooglePlacesTextInput, { Place } from '@/node_modules/react-native-google-places-textinput/lib/typescript/src';
 import { Feather, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import DateTimePicker, { DateTimePickerEvent } from '@react-native-community/datetimepicker';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { Alert, Image, Platform, SafeAreaView, StatusBar, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import GooglePlacesTextInput, { Place } from 'react-native-google-places-textinput';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import FollowersDropdown from '../../components/FollowersDropdown';
 import { Colors } from '../../constants/Colors';

@@ -1,7 +1,6 @@
 import { UserProvider } from '@/contexts/UserContext';
 import { useColorScheme } from '@/hooks/useColorScheme';
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
+import { DarkTheme, DefaultTheme, ThemeProvider } from '@/node_modules/@react-navigation/native/lib/typescript/src';
 import { Stack, usePathname } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';

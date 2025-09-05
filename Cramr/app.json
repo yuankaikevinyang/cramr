@@ -39,7 +39,7 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png",
       "build": {
-        "publicPath": "/Cramr/"
+        "publicPath": "/cramr/"
       }
     },
     "plugins": [
