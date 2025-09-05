@@ -37,7 +37,13 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+            "build": {
+        "babel": {
+          "include": ["expo-font"]
+        },
+        "publicPath": "/cramr/"
+      }
     },
     "plugins": [
       "expo-router",
