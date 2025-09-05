@@ -2,7 +2,7 @@
   "name": "study-group-finder",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://yuankaikevinyang.github.io/cramr",
+  "homepage": "https://yuankaikevinyang.github.io/Cramr",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
