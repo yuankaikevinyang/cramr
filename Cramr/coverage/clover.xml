@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1755164537009" clover="3.2.0">
+  <project timestamp="1755164537009" name="All files">
+    <metrics statements="54" coveredstatements="8" conditionals="6" coveredconditionals="4" methods="13" coveredmethods="1" elements="73" coveredelements="13" complexity="0" loc="54" ncloc="54" packages="6" files="12" classes="12"/>
+    <package name="Cramr">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="expo-env.d.ts" path="/Users/jeffreykang/study-group-finder/Cramr/expo-env.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Cramr..expo.types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="router.d.ts" path="/Users/jeffreykang/study-group-finder/Cramr/.expo/types/router.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Cramr.Logic">
+      <metrics statements="31" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="Customer.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/Logic/Customer.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="PrivateStudySessionFactory.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/Logic/PrivateStudySessionFactory.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="PublicStudySession.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/Logic/PublicStudySession.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+      </file>
+      <file name="PublicStudySessionFactory.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/Logic/PublicStudySessionFactory.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="StudySession.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/Logic/StudySession.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Cramr.components.ui">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="TabBarBackground.tsx" path="/Users/jeffreykang/study-group-finder/Cramr/components/ui/TabBarBackground.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Cramr.constants">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Colors.ts" path="/Users/jeffreykang/study-group-finder/Cramr/constants/Colors.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Cramr.hooks">
+      <metrics statements="19" coveredstatements="8" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="1"/>
+      <file name="useColorScheme.ts" path="/Users/jeffreykang/study-group-finder/Cramr/hooks/useColorScheme.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="useColorScheme.web.ts" path="/Users/jeffreykang/study-group-finder/Cramr/hooks/useColorScheme.web.ts">
+        <metrics statements="10" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+      <file name="useThemeColor.ts" path="/Users/jeffreykang/study-group-finder/Cramr/hooks/useThemeColor.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="16" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,12 @@
+appId: com.tylervo02.Cramr
+---
+- launchApp
+- assertVisible: 'Sign in'
+- tapOn: "Email address or username"
+- inputRandomEmail
+- tapOn: "Password"
+- inputRandomText
+- repeat:
+    times: 10
+    commands:
+      - tapOn: "Sign In"

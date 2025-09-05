@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  expo:
+    build: .
+    ports:
+      - "19000:19000"  # Expo DevTools
+      - "19001:19001"  # Metro Bundler (usually for Android)
+      - "8081:8081"    # Metro Bundler
+    volumes:
+      - .:/app
+    environment:
+      - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+    stdin_open: true
+    tty: true

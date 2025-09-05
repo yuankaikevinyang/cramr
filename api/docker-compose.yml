@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: cramr_postgres_container
+    environment:
+      - POSTGRES_PASSWORD=${CRAMR_DB_POSTGRES_PASSWORD}
+      - POSTGRES_DB=cramr_db
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persistent storage
+    networks:
+      - cramr-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: cramr_backend_container
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - CRAMR_DB_IP_ADDR=${CRAMR_DB_IP_ADDR}
+      - CRAMR_DB_POSTGRES_PASSWORD=${CRAMR_DB_POSTGRES_PASSWORD}
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    volumes:
+      - ./uploads:/app/uploads  # Mount uploads directory
+    networks:
+      - cramr-network
+
+networks:
+  cramr-network:
+    driver: bridge 
+
+volumes:
+  postgres_data:  # Named volume that persists data 
